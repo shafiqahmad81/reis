@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+
+@theme {
+    /* --container-max-width: 120rem; */
+    --font-Public: "Public Sans", "sans-serif"; 
+    --font-Roboto: "Roboto", "sans-serif";
+    --font-Inter: "Inter", "sans-serif";
+
+    --color-body: hsl(212 7.7% 56.7%);    /* #889099 */
+    --color-header: hsl(226 36.2% 9.2%);   /* #0f1320 */
+    --color-title: hsl(226 36.2% 18.4%);    /* #1e2640 */
+    --color-black-light: hsl(206 6.1% 22.5%);    /* #363A3D */
+    --color-gray-dark: hsl(212 5.6% 45.3%);    /* #6D737A */
+    --color-gray-regular: hsl(227 33.3% 94.7%);    /* #edeff6 */
+    --color-foreground-secondary: hsl(225 37% 46%);    /* #4a60a1 */
+    
+  }
+
+      
+   
+    h6{
+      @apply p-2.5 mt-6! text-sm! font-medium! leading-5! text-black-light
+    }
+    .container {
+      @apply mx-auto px-20 max-w-[1920px]!;
+    }
+    .dolar{
+      @apply p-2.5 mt-6! text-xs text-foreground-secondary leading-5 inline-block
+    }
