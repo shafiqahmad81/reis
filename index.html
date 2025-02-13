@@ -34,11 +34,62 @@
     style="background-image: url('./src/img/Hero-section-min.png');">
     <div class="container">
       <h1 class="text-4xl font-bold">Find Your Dream Home</h1>
-      <p class="text-lg mt-2">Discover the best properties in your area</p>
+      <p class=" mt-2">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin
+        sodales ultrices nulla blandit volutpat.</p>
       <div class="mt-4">
-        <button class="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded-lg mr-2">View Listings</button>
-        <button class="bg-gray-700 hover:bg-gray-800 px-6 py-2 rounded-lg">Contact Us</button>
+        <button class="btn">Rent</button>
+        <button class="btn2">Sale </button>
       </div>
+
+      <!-- Location -->
+
+      <section class="w-[1400px] bg-white p-8 mx-auto">
+        <div class="flex items-center justify-between gap-4 text-left text-black">
+          <!-- Column 1: Location -->
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Location</label>
+            <select class="mt-1 block w-full -ml-1">
+              <option>Select your city</option>
+              <option>New York</option>
+              <option>Los Angeles</option>
+              <option>Chicago</option>
+              <!-- Add more cities as needed -->
+            </select>
+          </div>
+
+          <!-- Column 2: Property Type -->
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Property Type</label>
+            <select class="mt-1 block w-full -ml-1">
+              <option>Select property type</option>
+              <option>Apartment</option>
+              <option>House</option>
+              <option>Condo</option>
+              <!-- Add more property types as needed -->
+            </select>
+          </div>
+
+          <!-- Column 3: Rent Range -->
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Rent Range</label>
+            <select class="mt-1 block w-full -ml-1">
+              <option>Select rent range</option>
+              <option>$500 - $1000</option>
+              <option>$1000 - $1500</option>
+              <option>$1500 - $2000</option>
+              <!-- Add more rent ranges as needed -->
+            </select>
+          </div>
+
+          <!-- Column 4: Search Button -->
+          <div class="flex items-end">
+            <button class="w-full bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600">
+              Search
+            </button>
+          </div>
+        </div>
+      </section>
+
     </div>
   </section>
 
@@ -46,7 +97,7 @@
   <section class="py-12 px-6 text-center">
     <div class="max-w-[1300px] mx-auto">
       <h2 class="text-3xl font-bold">Our Featured Properties</h2>
-      <p class="text-gray-600 mt-2">Browse some of our top listings</p>
+      <p class=" mt-2">Browse some of our top listings</p>
       <div class="grid grid-cols-3 gap-6 mt-6">
         <img src="./src/img/Card1-min.png" alt="Card" class="rounded-lg shadow-md">
         <img src="./src/img/Card2-min.png" alt="Card" class="rounded-lg shadow-md">
@@ -57,10 +108,15 @@
         <img src="./src/img/Card5-min.png" alt="Card" class="rounded-lg shadow-md">
       </div>
     </div>
-
   </section>
+
   <!-- Properties Section -->
+
   <section class="py-12 px-6 text-star bg-gray-regular">
+    <div class="text-center">
+      <h2 class="text-3xl font-bold">Our Featured Properties</h2>
+      <p class=" mt-2">Browse some of our top listings</p>
+    </div>
     <div class="grid grid-cols-4 gap-20 p-6 max-w-[1506px] mx-auto">
       <!-- Card 1 -->
       <div class=" p-6 bg-white rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition-all">
@@ -98,160 +154,250 @@
 
   <!--Latest Properties Section -->
 
-  <section class="grid grid-cols-4 gap-8 max-w-[1696px] mx-auto">
-    <div class="border border-amber-300 px-3.5 pt-4 pb-9 rounded-2xl ">
-      <div>
-        <img src="./src/img/Property-image-min.png" alt="porperty">
-      </div>
-      <h6>92 ALLIUM PLACE, ORLANDO FL 32827</h6>
-      <span class="dolar">$590,693</span>
-      <div class="flex gap-4 px-2.5 mt-6">
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/Car.png" alt="Car">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
+  <section class=" max-w-[1696px] mx-auto">
+    <div class="text-center">
+      <h2 class="text-3xl font-bold">Our Featured Properties</h2>
+      <p class=" mt-2">Browse some of our top listings</p>
+    </div>
+    <div class="grid grid-cols-4 gap-8">
+
+      <div class="border border-amber-300 px-3.5 pt-4 pb-9 rounded-2xl ">
+        <div>
+          <img src="./src/img/Property-image-min.png" alt="porperty">
         </div>
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/Bathtub.png" alt="Bathtub">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
-        </div>
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/ArrowsOut.png" alt="ArrowsOut">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">2,096.00 ft</span>
-        </div>
-      </div>
-      <div class="flex items-center justify-between mt-6">
-        <div class="flex items-center gap-1.5">
-          <img class="w-7" src="./src/img/jenny.jpg" alt="logo-jenny">
-          <span class="text-xs font-medium text-black-light">Jenny Wilson</span>
-        </div>
-        <div class="flex gap-2">
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/share-icon.png" alt="share-icon">
+        <h6>92 ALLIUM PLACE, ORLANDO FL 32827</h6>
+        <span class="dolar">$590,693</span>
+        <div class="flex gap-4 px-2.5 mt-6">
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/Car.png" alt="Car">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
           </div>
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/Heart.png" alt="heart-icon">
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/Bathtub.png" alt="Bathtub">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
           </div>
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/Plus.png" alt="Plus-icon">
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/ArrowsOut.png" alt="ArrowsOut">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">2,096.00 ft</span>
+          </div>
+        </div>
+        <div class="flex items-center justify-between mt-6">
+          <div class="flex items-center gap-1.5">
+            <img class="w-7" src="./src/img/jenny.jpg" alt="logo-jenny">
+            <span class="text-xs font-medium text-black-light">Jenny Wilson</span>
+          </div>
+          <div class="flex gap-2">
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/share-icon.png" alt="share-icon">
+            </div>
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/Heart.png" alt="heart-icon">
+            </div>
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/Plus.png" alt="Plus-icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border border-amber-300 px-3.5 pt-4 pb-9 rounded-2xl ">
+        <div>
+          <img src="./src/img/Property-image-min.png" alt="porperty">
+        </div>
+        <h6>92 ALLIUM PLACE, ORLANDO FL 32827</h6>
+        <span class="dolar">$590,693</span>
+        <div class="flex gap-4 px-2.5 mt-6">
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/Car.png" alt="Car">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
+          </div>
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/Bathtub.png" alt="Bathtub">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
+          </div>
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/ArrowsOut.png" alt="ArrowsOut">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">2,096.00 ft</span>
+          </div>
+        </div>
+        <div class="flex items-center justify-between mt-6">
+          <div class="flex items-center gap-1.5">
+            <img class="w-7" src="./src/img/jenny.jpg" alt="logo-jenny">
+            <span class="text-xs font-medium text-black-light">Jenny Wilson</span>
+          </div>
+          <div class="flex gap-2">
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/share-icon.png" alt="share-icon">
+            </div>
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/Heart.png" alt="heart-icon">
+            </div>
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/Plus.png" alt="Plus-icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border border-amber-300 px-3.5 pt-4 pb-9 rounded-2xl ">
+        <div>
+          <img src="./src/img/Property-image-min.png" alt="porperty">
+        </div>
+        <h6>92 ALLIUM PLACE, ORLANDO FL 32827</h6>
+        <span class="dolar">$590,693</span>
+        <div class="flex gap-4 px-2.5 mt-6">
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/Car.png" alt="Car">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
+          </div>
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/Bathtub.png" alt="Bathtub">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
+          </div>
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/ArrowsOut.png" alt="ArrowsOut">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">2,096.00 ft</span>
+          </div>
+        </div>
+        <div class="flex items-center justify-between mt-6">
+          <div class="flex items-center gap-1.5">
+            <img class="w-7" src="./src/img/jenny.jpg" alt="logo-jenny">
+            <span class="text-xs font-medium text-black-light">Jenny Wilson</span>
+          </div>
+          <div class="flex gap-2">
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/share-icon.png" alt="share-icon">
+            </div>
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/Heart.png" alt="heart-icon">
+            </div>
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/Plus.png" alt="Plus-icon">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="border border-amber-300 px-3.5 pt-4 pb-9 rounded-2xl ">
+        <div>
+          <img src="./src/img/Property-image-min.png" alt="porperty">
+        </div>
+        <h6>92 ALLIUM PLACE, ORLANDO FL 32827</h6>
+        <span class="dolar">$590,693</span>
+        <div class="flex gap-4 px-2.5 mt-6">
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/Car.png" alt="Car">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
+          </div>
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/Bathtub.png" alt="Bathtub">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
+          </div>
+          <div class="flex items-center gap-1">
+            <img class="w-4" src="./src/icon/ArrowsOut.png" alt="ArrowsOut">
+            <span class="text-gray-dark text-[11px] leading-4 font-medium">2,096.00 ft</span>
+          </div>
+        </div>
+        <div class="flex items-center justify-between mt-6">
+          <div class="flex items-center gap-1.5">
+            <img class="w-7" src="./src/img/jenny.jpg" alt="logo-jenny">
+            <span class="text-xs font-medium text-black-light">Jenny Wilson</span>
+          </div>
+          <div class="flex gap-2">
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/share-icon.png" alt="share-icon">
+            </div>
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/Heart.png" alt="heart-icon">
+            </div>
+            <div class="w-5 bg-gray-regular p-1">
+              <img src="./src/icon/Plus.png" alt="Plus-icon">
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="border border-amber-300 px-3.5 pt-4 pb-9 rounded-2xl ">
-      <div>
-        <img src="./src/img/Property-image-min.png" alt="porperty">
-      </div>
-      <h6>92 ALLIUM PLACE, ORLANDO FL 32827</h6>
-      <span class="dolar">$590,693</span>
-      <div class="flex gap-4 px-2.5 mt-6">
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/Car.png" alt="Car">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
-        </div>
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/Bathtub.png" alt="Bathtub">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
-        </div>
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/ArrowsOut.png" alt="ArrowsOut">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">2,096.00 ft</span>
-        </div>
-      </div>
-      <div class="flex items-center justify-between mt-6">
-        <div class="flex items-center gap-1.5">
-          <img class="w-7" src="./src/img/jenny.jpg" alt="logo-jenny">
-          <span class="text-xs font-medium text-black-light">Jenny Wilson</span>
-        </div>
-        <div class="flex gap-2">
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/share-icon.png" alt="share-icon">
-          </div>
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/Heart.png" alt="heart-icon">
-          </div>
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/Plus.png" alt="Plus-icon">
-          </div>
-        </div>
-      </div>
+    <div class="flex justify-center mt-10">
+      <button class="btn ">Load more listing</button>
     </div>
-    <div class="border border-amber-300 px-3.5 pt-4 pb-9 rounded-2xl ">
-      <div>
-        <img src="./src/img/Property-image-min.png" alt="porperty">
+  </section>
+
+  <!-- contact us section -->
+
+  <section class="bg-gray-regular">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center">
+        <h2 class="text-3xl font-bold">Contact us</h2>
+        <p class=" mt-2">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin
+          sodales ultrices nulla blandit volutpat.</p>
       </div>
-      <h6>92 ALLIUM PLACE, ORLANDO FL 32827</h6>
-      <span class="dolar">$590,693</span>
-      <div class="flex gap-4 px-2.5 mt-6">
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/Car.png" alt="Car">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
-        </div>
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/Bathtub.png" alt="Bathtub">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
-        </div>
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/ArrowsOut.png" alt="ArrowsOut">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">2,096.00 ft</span>
-        </div>
-      </div>
-      <div class="flex items-center justify-between mt-6">
-        <div class="flex items-center gap-1.5">
-          <img class="w-7" src="./src/img/jenny.jpg" alt="logo-jenny">
-          <span class="text-xs font-medium text-black-light">Jenny Wilson</span>
-        </div>
-        <div class="flex gap-2">
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/share-icon.png" alt="share-icon">
+      <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-[880px] mx-auto">
+        <form action="#" method="POST" class="space-y-4">
+          <div class="flex gap-4">
+            <input type="text" placeholder="First name" class="w-1/2 p-2 border rounded-lg">
+            <input type="text" placeholder="Last name" class="w-1/2 p-2 border rounded-lg">
           </div>
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/Heart.png" alt="heart-icon">
+          <input type="email" placeholder="Email" class="w-full p-2 border rounded-lg">
+          <textarea placeholder="Comments or questions" class="w-full p-2 border rounded-lg h-24"></textarea>
+          <div class="flex justify-center">
+            <button type="submit" class="btn w-[210px]">Submit</button>
           </div>
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/Plus.png" alt="Plus-icon">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="border border-amber-300 px-3.5 pt-4 pb-9 rounded-2xl ">
-      <div>
-        <img src="./src/img/Property-image-min.png" alt="porperty">
-      </div>
-      <h6>92 ALLIUM PLACE, ORLANDO FL 32827</h6>
-      <span class="dolar">$590,693</span>
-      <div class="flex gap-4 px-2.5 mt-6">
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/Car.png" alt="Car">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
-        </div>
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/Bathtub.png" alt="Bathtub">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">4</span>
-        </div>
-        <div class="flex items-center gap-1">
-          <img class="w-4" src="./src/icon/ArrowsOut.png" alt="ArrowsOut">
-          <span class="text-gray-dark text-[11px] leading-4 font-medium">2,096.00 ft</span>
-        </div>
-      </div>
-      <div class="flex items-center justify-between mt-6">
-        <div class="flex items-center gap-1.5">
-          <img class="w-7" src="./src/img/jenny.jpg" alt="logo-jenny">
-          <span class="text-xs font-medium text-black-light">Jenny Wilson</span>
-        </div>
-        <div class="flex gap-2">
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/share-icon.png" alt="share-icon">
-          </div>
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/Heart.png" alt="heart-icon">
-          </div>
-          <div class="w-5 bg-gray-regular p-1">
-            <img src="./src/icon/Plus.png" alt="Plus-icon">
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   </section>
+
+  <!-- Footer section -->
+
+  <footer class="bg-white p-12">
+    <div class="max-w-[1820px] mx-auto flex items-start justify-between">
+      <!-- Column 1: Logo, Contact Us, Call, Email, Social Icons -->
+      <div>
+        <div class="text-2xl font-bold mb-4">Logo</div>
+        <p class="mb-2">Contact Us</p>
+        <p class="mb-2">Call: +123 400 123</p>
+        <p class="mb-4">Email: contact@mail.com</p>
+        <div class="flex items-center gap-2">
+          <a href="#" class="social"><img class="w-5" src="./src/icon/facebook-min.png" alt=""></a>
+          <a href="#" class="social"><img class="w-5" src="./src/icon/dribbble-min.png" alt=""></a>
+          <a href="#" class="social"><img class="w-5" src="./src/icon/linkdine-min.png" alt=""></a>
+          <a href="#" class="social"><img class="w-5" src="./src/icon/instagram-min.png" alt=""></a>
+          <a href="#" class="social"><img class="w-5" src="./src/icon/be-min.png" alt=""></a>
+        </div>
+      </div>
+
+      <!-- Column 2: Features -->
+      <div>
+        <h3 class="font-bold mb-4">Features</h3>
+        <ul>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">Home</a></li>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">Become a Host</a></li>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">Pricing</a></li>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">Blog</a></li>
+          <li><a href="#" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Company -->
+      <div>
+        <h3 class="font-bold mb-4">Company</h3>
+        <ul>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">About Us</a></li>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">Press</a></li>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">Contact</a></li>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">Careers</a></li>
+          <li><a href="#" class="hover:text-gray-400">Blog</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Team and Policies -->
+      <div>
+        <h3 class="font-bold mb-4">Team and Policies</h3>
+        <ul>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">Terms of Services</a></li>
+          <li class="mb-2"><a href="#" class="hover:text-gray-400">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-gray-400">Security</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
